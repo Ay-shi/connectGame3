@@ -42,7 +42,7 @@
             android:layout_width="125dp"
             android:layout_height="60dp"
             android:onClick="dropIn"
-            android:tag="0"
+            android:tag="1"
             app:layout_column="1"
             app:layout_row="0" />
 
@@ -51,6 +51,7 @@
             android:layout_width="125dp"
             android:layout_height="60dp"
             android:onClick="dropIn"
+            android:tag="2"
             app:layout_column="2"
             app:layout_row="0"/>
 
@@ -60,6 +61,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="60dp"
             android:onClick="dropIn"
+            android:tag="3"
             app:layout_column="0"
             app:layout_row="1" />
 
@@ -69,6 +71,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="60dp"
             android:onClick="dropIn"
+            android:tag="4"
             app:layout_column="1"
             app:layout_row="1"/>
 
@@ -78,6 +81,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="60dp"
             android:onClick="dropIn"
+            android:tag="5"
             app:layout_column="2"
             app:layout_row="1" />
 
@@ -87,6 +91,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="60dp"
             android:onClick="dropIn"
+            android:tag="6"
             app:layout_column="0"
             app:layout_row="2"/>
 
@@ -96,6 +101,7 @@
             android:layout_height="60dp"
             android:layout_marginTop="60dp"
             android:onClick="dropIn"
+            android:tag="7"
             app:layout_column="1"
             app:layout_row="2"/>
 
@@ -105,11 +111,9 @@
             android:layout_height="60dp"
             android:layout_marginTop="60dp"
             android:onClick="dropIn"
+            android:tag="8"
             app:layout_column="2"
             app:layout_row="2" />
-
-
-
 
     </androidx.gridlayout.widget.GridLayout>
 
